@@ -21,6 +21,7 @@ public class NicknameActivity extends AppCompatActivity {
         nickname =  ed_name.getText().toString();
 
     }
+
     public void Next(View view) {
         nickname = ed_name.getText().toString();
         SharedPreferences sp =getSharedPreferences("text",MODE_PRIVATE);
